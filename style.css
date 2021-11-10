@@ -56,6 +56,16 @@ section {
     margin-left: 80px;
 }
 
+footer {
+    padding: 50px;
+    background-color: rgb(51, 51, 51);
+}
+
+footer p{
+    color: white;
+    margin: 10px;
+}
+
 button:hover {
     background-color: black;
 }
