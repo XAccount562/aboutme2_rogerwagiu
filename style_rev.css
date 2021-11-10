@@ -1,0 +1,109 @@
+/*mainthings*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center_content {
+    margin: auto;
+    width: 70rem;
+}
+
+header {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+footer {
+    padding: 5rem;
+    color: white;
+}
+
+footer p {
+    padding: 1rem;
+    color: white;
+}
+
+/*display*/
+
+.disp_inline {
+    display: inline;
+}
+
+
+/*navigation*/
+nav {
+    background-color: rgb(26, 139, 204);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: smaller;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+/*ALIGNMENT*/
+.align_right {
+    position: absolute;
+    right: 0px;
+}
+
+.align_center {
+    text-align: center;
+}
+
+/*BACKGROUND 100% things*/
+.bg_color1 {
+    background-color: rgb(228, 228, 228);
+}
+
+.bg_colorfooter {
+    background-color: rgb(51, 51, 51);
+}
+
+/*TEXTS*/
+#content p,h1,h2,h3,h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: grey;
+}
+
+h4.bagian {
+    padding: 1rem;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(26, 139, 204);
+    color: white;
+    font-size: 23px;
+}
+
+ol {
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+/*others*/
+hr {
+    background-color: rgb(26, 139, 204);
+    border-width: 1px;
+    border-color: rgb(26, 139, 204);
+    height: 5px;
+}
